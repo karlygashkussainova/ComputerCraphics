@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="todo.controllers.SignUpController">
+   <children>
+      <AnchorPane layoutY="139.0" prefHeight="261.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-radius: 5;">
+         <children>
+            <TextField fx:id="SignUpLogin" layoutX="249.0" layoutY="84.0" prefHeight="27.0" prefWidth="227.0" promptText="Login" style="-fx-border-radius: 5;">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="SignUpPassword" layoutX="249.0" layoutY="131.0" prefHeight="28.0" prefWidth="227.0" promptText="Password" style="-fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="signup" layoutX="300.0" layoutY="202.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="114.0" style="-fx-background-color: #a10d0d #a10d0d;" text="Sign Up" />
+            <TextField fx:id="SignUpName" layoutX="249.0" layoutY="36.0" prefHeight="25.0" prefWidth="227.0" promptText="Name">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <Label layoutX="79.0" layoutY="28.0" prefHeight="79.0" prefWidth="407.0" text="Plase, sign up" textFill="#a10d0d">
+         <font>
+            <Font name="Times New Roman" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="signin" layoutX="538.0" layoutY="46.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="128.0" style="-fx-background-color: #a10d0d;" text="Sign In">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
